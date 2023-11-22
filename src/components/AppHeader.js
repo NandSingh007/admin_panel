@@ -16,10 +16,10 @@ import {
 } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
 import {
-  cilBell,
+  // cilBell,
   cilContrast,
-  cilEnvelopeOpen,
-  cilList,
+  // cilEnvelopeOpen,
+  // cilList,
   cilMenu,
   cilMoon,
   cilSun,
@@ -57,27 +57,21 @@ const AppHeader = () => {
               Dashboard
             </CNavLink>
           </CNavItem>
-          <CNavItem>
-            <CNavLink href="#">Users</CNavLink>
-          </CNavItem>
-          <CNavItem>
-            <CNavLink href="#">Settings</CNavLink>
-          </CNavItem>
         </CHeaderNav>
         <CHeaderNav className="ms-auto">
           <CNavItem>
             <CNavLink href="#">
-              <CIcon icon={cilBell} size="lg" />
+              <span style={{ fontFamily: 'bold', fontSize: '18px' }}>Wallet</span> : {`2515/-`}
             </CNavLink>
           </CNavItem>
           <CNavItem>
             <CNavLink href="#">
-              <CIcon icon={cilList} size="lg" />
+              <span style={{ fontFamily: 'bold', fontSize: '18px' }}>Aeps</span> : {`2515/-`}
             </CNavLink>
           </CNavItem>
           <CNavItem>
             <CNavLink href="#">
-              <CIcon icon={cilEnvelopeOpen} size="lg" />
+              <span style={{ fontFamily: 'bold', fontSize: '18px' }}>Matm</span> : {`2515/-`}
             </CNavLink>
           </CNavItem>
         </CHeaderNav>

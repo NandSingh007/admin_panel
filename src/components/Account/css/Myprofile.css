@@ -1,0 +1,41 @@
+.left_sideBar {
+    background-color: blue;
+    margin-right: 5px;
+}
+
+.right_sideBar {
+    background-color: rgb(72, 72, 131);
+    margin-left: 5px;
+}
+
+.row>* {
+    max-width: 100%;
+    padding-right: calc(var(--cui-gutter-x) * 0.8) !important;
+    padding-left: calc(var(--cui-gutter-x) * 0.8) !important;
+    margin-top: var(--cui-gutter-y);
+}
+
+.btn_group {
+    /* background-color: cadetblue; */
+    justify-content: right;
+}
+
+.Designer_section__Gi-pp {
+    padding: 8px 10px;
+    border-bottom: 2px solid transparent;
+    list-style: none;
+    margin-right: 12px;
+    border-radius: 1px;
+    /* background-color: aqua; */
+    margin-left: 13px;
+    /* border-radius: 5px; */
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    font-weight: 500;
+    /* color: rgb(104, 102, 101) !important; */
+    white-space: nowrap;
+}
+.table{
+    margin-bottom: 0px !important;
+}

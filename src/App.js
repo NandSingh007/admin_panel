@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux'
 
 import { CSpinner, useColorModes } from '@coreui/react'
 import './scss/style.scss'
+// import Myprofile from './components/Account/Myprofile'
 
 // Containers
 const DefaultLayout = React.lazy(() => import('./layout/DefaultLayout'))
@@ -30,7 +31,7 @@ const App = () => {
     }
 
     setColorMode(storedTheme)
-  }, []) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [])
 
   return (
     <HashRouter>
@@ -42,6 +43,7 @@ const App = () => {
         }
       >
         <Routes>
+          {/* <Route exact path="/profile" name="profile" element={<Myprofile />} /> */}
           <Route exact path="/login" name="Login Page" element={<Login />} />
           <Route exact path="/register" name="Register Page" element={<Register />} />
           <Route exact path="/404" name="Page 404" element={<Page404 />} />

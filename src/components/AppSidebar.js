@@ -50,7 +50,6 @@ const AppSidebar = () => {
           onClick={() => dispatch({ type: 'set', sidebarShow: false })}
         />
       </CSidebarHeader>
-
       <CSidebarNav>
         <SimpleBar>
           <AppSidebarNav items={navigation} />
