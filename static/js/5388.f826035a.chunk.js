@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunk_coreui_coreui_free_react_admin_template=self.webpackChunk_coreui_coreui_free_react_admin_template||[]).push([[5388],{65388:(e,r,_)=>{_.r(r),_.d(r,{default:()=>t});_(72791);var c=_(80184);const t=()=>(0,c.jsx)("div",{children:"Logout"})}}]);
+//# sourceMappingURL=5388.f826035a.chunk.js.map

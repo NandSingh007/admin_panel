@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/5388.f826035a.chunk.js","mappings":"2NAEA,MAMA,EANeA,KAEXC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,U","sources":["components/Account/Logout.js"],"sourcesContent":["import React from 'react'\r\n\r\nconst Logout = () => {\r\n  return (\r\n    <div>Logout</div>\r\n  )\r\n}\r\n\r\nexport default Logout"],"names":["Logout","_jsx","children"],"sourceRoot":""}

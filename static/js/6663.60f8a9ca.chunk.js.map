@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/6663.60f8a9ca.chunk.js","mappings":"2NAEA,MAMA,EANgBA,KAEZC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,W","sources":["components/Account/Setting.js"],"sourcesContent":["import React from 'react'\r\n\r\nconst Setting = () => {\r\n  return (\r\n    <div>Setting</div>\r\n  )\r\n}\r\n\r\nexport default Setting"],"names":["Setting","_jsx","children"],"sourceRoot":""}
